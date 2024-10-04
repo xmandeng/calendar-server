@@ -1,0 +1,89 @@
+# Ignore the calendar directory containing .ics files
+calendar/
+
+# Ignore VSCode settings (workspace-specific settings)
+.vscode/
+
+# Ignore log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+
+# Ignore node_modules directory (if using Node.js)
+node_modules/
+
+# Ignore Python cache files (if using Python)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore build output directories
+dist/
+build/
+out/
+
+# Ignore coverage reports (if using testing tools)
+coverage/
+*.lcov
+
+# Ignore temporary files
+tmp/
+temp/
+*.swp
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Docker artifacts
+**/.dockerignore
+Dockerfile*
+docker-compose.yml
+docker-compose.*.yml
+
+# Ignore lock files (if you prefer not to commit them)
+package-lock.json
+yarn.lock
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Git submodules
+.git/modules/
+
+# Ignore MacOS-specific files
+Icon?
+.AppleDouble
+.LSOverride
+
+# Ignore Linux/Mac swap files
+.*.swp
+.*.swo
+
+# Ignore Visual Studio Code Dev Container configurations (if you prefer)
+.devcontainer/
+
+# Ignore idea configs (if using IntelliJ IDEA)
+.idea/
+
+# Ignore yarn files (if using Yarn)
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Ignore NPM debug files
+npm-debug.log*
